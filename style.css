@@ -2,12 +2,12 @@ body {
   font-family: 'Lora', serif;
   margin: 0;
   padding: 0;
-  background-color: #FFDDD6;
+  background-color: #fed5cd;
 }
 
 header {
-  background-color: #fff;
-  border-bottom: 1px solid #ddd;
+  background-color: #fed5cd;
+  /*border-bottom: 1px solid #ddd;*/
   padding: 20px;
   position: fixed;
   top: 0;
@@ -15,30 +15,86 @@ header {
   right: 0;
 }
 
+nav {
+  float: right;
+  font-family: 'Lora', serif;
+}
+
+nav li {
+  display: inline-block;
+}
+
 header h1 {
   margin: 0;
   padding: 0;
 }
 
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: flex;
+.navbar {
+  overflow: hidden;
 }
 
-nav ul li {
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Lora', serif;
+  font-weight: bold;
+  font-size: 23px;
+}
+
+.navbar img {
+  height: 30px;
   margin-right: 20px;
 }
 
-nav ul li a {
-  text-decoration: none;
-  color: #333;
+.navbar a:hover {
+  /*background-color: #869f77;*/
+  color: black;
 }
 
 main {
   margin-top: 80px;
   padding: 20px;
+}
+
+.welcome-message {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20px;
+  position: absolute;
+  left: 0;
+  top: 180px;
+  /*transform: translateY(-50%);*/
+  width: 50%;
+  padding-left: 65px;
+}
+
+.welcome-message h2 {
+  font-size: 70px;
+  font-weight: bold;
+  margin: 0;
+}
+
+
+.circle {
+  border-radius: 50%;
+}
+
+.container {
+  display: flex;
+  padding-top: 30px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.container img {
+  width: 350px; /* adjust size as needed */
+  border-radius: 50%; /* make image round */
+  margin-left: 10px; /* add some space between image and text */
+  margin-right: 65px; /* add some space between image and text */
 }
 
 section {
@@ -59,12 +115,25 @@ ul {
 }
 
 footer {
-  background-color: #f8f8f8;
-  border-top: 1px solid #ddd;
+  background-color: #fed5cd;
+  /*border-top: 1px solid #ddd;*/
   padding: 20px;
   text-align: center;
-  position: absolute;
+  /*position: absolute;*/
   bottom: 0;
   left: 0;
   right: 0;
 }
+
+.introstatement {
+  text-align: left;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: 'Lora', serif;
+  /*font-weight: bold;*/
+  font-size: 22px;
+}
+
+

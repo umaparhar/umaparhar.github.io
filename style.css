@@ -48,18 +48,19 @@ header h1 {
 .navbar img {
   height: 30px;
   margin-right: 20px;
+  align-items: center;
 }
 
 .navbar a:hover {
-  /*background-color: #869f77;*/
+  background-color: #d1a7a0;
   color: black;
+  
 }
 
 main {
   margin-top: 80px;
   padding: 20px;
   padding-top: 30px;
-  background-color: #d1a7a0;
 }
 
 .welcome-message {
@@ -77,10 +78,12 @@ main {
   padding-left: 60px;
   padding-right: 60px;
   padding-top: 60px;
+  background-color: #d1a7a0;
+  padding-bottom: 180px;
 }
 
 .welcome-message h2 {
-  font-size: 70px;
+  font-size: 100px;
   font-weight: bold;
   margin: 0;
 }
@@ -97,7 +100,7 @@ main {
 }
 
 .profile-image img {
-  width: 350px;
+  width: 450px;
   border-radius: 50%;
 }
 
@@ -133,9 +136,10 @@ footer {
   text-align: left;
   padding-left: 100px;
   padding-right: 100px;
-  padding-top: 120px;
-  padding-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   font-family: 'Lora';
+  background-color: #b69992;
   /*font-weight: bold;*/
   font-size: 22px;
 }

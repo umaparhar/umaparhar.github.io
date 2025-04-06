@@ -7,7 +7,6 @@ gh-badge: [star, fork, follow]
 tags: [test]
 comments: true
 mathjax: true
-author: Bill Smith
 ---
 
 {: .box-success}

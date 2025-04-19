@@ -137,7 +137,7 @@ navbar-var-length: false
 
 page-col: "#f8e0d2"         # warm cream for a soft background
 text-col: "#b05674"         # darker pink for improved readability
-link-col: "#cb997e"         # warm clay for links that match the text color
+link-col: "#8c4a38" #"#cb997e"         # warm clay for links that match the text color
 hover-col: "#e0b0a2"        # softer blush for hover effects
 navbar-col: "#f8e0d2"       # match the page background for a seamless look
 navbar-text-col: "#b05674"  # darker pink for readable navbar text
